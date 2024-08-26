@@ -1,0 +1,1201 @@
+/*1712PX*/
+@media (max-width: 107em) {
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__two {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__three {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__four {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__five {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__six {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__seven {
+    position: relative;
+    width: 100%;
+    max-width: 158rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallard__line {
+    display: flex;
+    gap: 35rem;
+  }
+
+  .gallard {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+  }
+
+  .img__one {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__line {
+    display: flex;
+    gap: 11rem;
+  }
+
+  .bkm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    width: 39rem;
+  }
+
+  .img__two {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__atolye__line {
+    display: flex;
+    gap: 10rem;
+  }
+
+  .bkm__atolye {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    width: 39rem;
+  }
+
+  .img__three {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .huqqabaz__line {
+    display: flex;
+    gap: 13rem;
+  }
+
+  .huqqabaz {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    width: 39rem;
+  }
+
+  .img__four {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .maya__eczanesi__line {
+    display: flex;
+    gap: 13rem;
+  }
+
+  .maya__eczanesi {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    width: 39rem;
+  }
+
+  .img__five {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .img__six {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__263__line {
+    display: flex;
+    gap: 13rem;
+  }
+
+  .riva__263 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    width: 39rem;
+  }
+
+  .img__seven {
+    width: 37rem;
+    height: 30rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__918__line {
+    display: flex;
+    gap: 13rem;
+  }
+
+  .riva__918 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    width: 39rem;
+  }
+}
+
+/*1600PX*/
+@media (max-width: 100em) {
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__two {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__three {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__four {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__five {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__six {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__seven {
+    position: relative;
+    width: 100%;
+    max-width: 150rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallard__line {
+    display: flex;
+    gap: 30rem;
+  }
+
+  .gallard {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+  }
+
+  .img__one {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__line {
+    display: flex;
+    gap: 9rem;
+  }
+
+  .bkm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+    width: 37rem;
+  }
+
+  .img__two {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__atolye__line {
+    display: flex;
+    gap: 8.5rem;
+  }
+
+  .bkm__atolye {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+    width: 37rem;
+  }
+
+  .img__three {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .huqqabaz__line {
+    display: flex;
+    gap: 8.5rem;
+  }
+
+  .huqqabaz {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+    width: 37rem;
+  }
+
+  .img__four {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .maya__eczanesi__line {
+    display: flex;
+    gap: 8.5rem;
+  }
+
+  .maya__eczanesi {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+    width: 37rem;
+  }
+
+  .img__five {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .img__six {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__263__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .riva__263 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+    width: 37rem;
+  }
+
+  .img__seven {
+    width: 33rem;
+    height: 26rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__918__line {
+    display: flex;
+    gap: 8.5rem;
+  }
+
+  .riva__918 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.6rem;
+    margin-left: 2rem;
+    width: 37rem;
+  }
+}
+
+/*1504PX*/
+@media (max-width: 94em) {
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__two {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__three {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__four {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__five {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__six {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__seven {
+    position: relative;
+    width: 100%;
+    max-width: 135rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallard__line {
+    display: flex;
+    gap: 27rem;
+  }
+
+  .gallard {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+  }
+
+  .img__one {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .bkm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+    width: 33rem;
+  }
+
+  .img__two {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__atolye__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .bkm__atolye {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+    width: 33rem;
+  }
+
+  .img__three {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .huqqabaz__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .huqqabaz {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+    width: 33rem;
+  }
+
+  .img__four {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .maya__eczanesi__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .maya__eczanesi {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+    width: 33rem;
+  }
+
+  .img__five {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .img__six {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__263__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .riva__263 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+    width: 33rem;
+  }
+
+  .img__seven {
+    width: 30rem;
+    height: 24rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__918__line {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .riva__918 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3.2rem;
+    margin-left: 2rem;
+    width: 33rem;
+  }
+}
+
+/*1344PX*/
+@media (max-width: 84em) {
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__two {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__three {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__four {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__five {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__six {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__seven {
+    position: relative;
+    width: 100%;
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallard__line {
+    display: flex;
+    gap: 24rem;
+  }
+
+  .gallard {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+  }
+
+  .img__one {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__line {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .bkm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    width: 29rem;
+  }
+
+  .img__two {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__atolye__line {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .bkm__atolye {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    width: 29rem;
+  }
+
+  .img__three {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .huqqabaz__line {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .huqqabaz {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    width: 29rem;
+  }
+
+  .img__four {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .maya__eczanesi__line {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .maya__eczanesi {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    width: 29rem;
+  }
+
+  .img__five {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .img__six {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__263__line {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .riva__263 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    width: 29rem;
+  }
+
+  .img__seven {
+    width: 25rem;
+    height: 18rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__918__line {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .riva__918 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    width: 29rem;
+  }
+}
+
+/*1104PX*/
+@media (max-width: 69em) {
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__two {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__three {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__four {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__five {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__six {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__seven {
+    position: relative;
+    width: 100%;
+    max-width: 90rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallard__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .gallard {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    width: 27rem;
+  }
+
+  .img__one {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .bkm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 27rem;
+    padding-top: 2rem;
+  }
+
+  .img__two {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__atolye__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .bkm__atolye {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 27rem;
+    padding-top: 2rem;
+  }
+
+  .img__three {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .huqqabaz__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .huqqabaz {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 27rem;
+    padding-top: 2rem;
+  }
+
+  .img__four {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .maya__eczanesi__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .maya__eczanesi {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 27rem;
+    padding-top: 2rem;
+  }
+
+  .img__five {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .img__six {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__263__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .riva__263 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 27rem;
+    padding-top: 2rem;
+  }
+
+  .img__seven {
+    width: 20rem;
+    height: 15rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__918__line {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .riva__918 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    width: 27rem;
+    padding-top: 2rem;
+  }
+}
+
+/* 944PX TABLETS */
+
+@media (max-width: 59em) {
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__two {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__three {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__four {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__five {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__six {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .slider__seven {
+    position: relative;
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .gallard__line {
+    display: flex;
+  }
+
+  .gallard {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    width: 22rem;
+  }
+
+  .img__one {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__line {
+    display: flex;
+  }
+
+  .bkm {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 22rem;
+    padding-top: 3rem;
+  }
+
+  .img__two {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .bkm__atolye__line {
+    display: flex;
+  }
+
+  .bkm__atolye {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 22rem;
+    padding-top: 3rem;
+  }
+
+  .img__three {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .huqqabaz__line {
+    display: flex;
+  }
+
+  .huqqabaz {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 22rem;
+    padding-top: 3rem;
+  }
+
+  .img__four {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .maya__eczanesi__line {
+    display: flex;
+  }
+
+  .maya__eczanesi {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 22rem;
+    padding-top: 3rem;
+  }
+
+  .img__five {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .img__six {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__263__line {
+    display: flex;
+  }
+
+  .riva__263 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 22rem;
+    padding-top: 3rem;
+  }
+
+  .img__seven {
+    width: 15rem;
+    height: 12rem;
+    flex: 0 0 calc(100% / 12); /* 12 resim olduğu için her biri %8.33 */
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+
+  .riva__918__line {
+    display: flex;
+  }
+
+  .riva__918 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin-left: 2rem;
+    width: 22rem;
+    padding-top: 3rem;
+  }
+}
+
+/* 720PX PHONES */
+@media (max-width: 45em) {
+}

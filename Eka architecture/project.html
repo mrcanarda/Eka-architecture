@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="css/project.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/quaries.css" />
+    <link rel="stylesheet" href="project.html" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="script.js"></script>
+    <script defer src="project.js"></script>
+  </head>
+  <body>
+    <header class="header__">
+      <a href="#">
+        <img class="logo" alt="EKA logo" src="img/rka-.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list navn__">
+          <li><a class="main-nav-link" href="index.html">Hakkımızda</a></li>
+          <li><a class="main-nav-link" href="#about">Portföyümüz</a></li>
+          <li><a class="main-nav-link" href="ekibimiz.html">Ekibimiz</a></li>
+          <li><a class="main-nav-link" href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <div class="slider galliard project__foto">
+      <div class="gallard__line">
+        <div class="info_icon">
+          <div class="header_and_icon">
+            <h1 class="gallard">Galliard</h1>
+            <ion-icon
+              class="ion__icon__info gallard_info"
+              name="information-circle-outline"
+              id="infoButton"
+            ></ion-icon>
+          </div>
+          <div id="gallard__info__page" class="gallard__info__page hidden">
+            <h2>THE GALLIARD BRASSERIE</h2>
+            <h2>Emar Square Mall</h2>
+            <h3>Vadi İstanbul</h3>
+            <p>
+              İstanbul Üsküdar'da konumlu Emaar Square Mall'da yer alan 500m2
+              alana sahip olan restoranla ilgili EKA Mimarlık& Mühendislik
+              olarak proje ve uygulama alanında görev aldık.
+            </p>
+            <ul class="list__style__proj">
+              <li>
+                1.Tasarlanan projeye uygun olarak kaba ve ince işlerin yapılması
+                ve sonlandırılması,
+              </li>
+              <li>2.Çelik konstrüksiyon proje ve uygulamaları,</li>
+              <li>
+                3.Çelik asma kat ve çelik çatı kapama işlemleri tarafımızca
+                tamamlanmış olup değerli müşterimize hizmet vermektedir.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 64%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+          "
+        />
+      </div>
+      <div class="slides project__photos gallery-item">
+        <img
+          class="img__one"
+          src="EMAAR GALLİARD/galliard-01.jpg"
+          alt="Image 1"
+        />
+        <img
+          class="img__one"
+          src="EMAAR GALLİARD/galliard-02.jpg"
+          alt="Image 2"
+        />
+        <img
+          class="img__one"
+          src="EMAAR GALLİARD/galliard-03.jpg"
+          alt="Image 3"
+        />
+        <img
+          class="img__one"
+          src="EMAAR GALLİARD/galliard-04.jpg"
+          alt="Image 4"
+        />
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" />
+      </div>
+    </div>
+    <div class="slider project__foto">
+      <div class="bkm__line">
+        <div class="header_and_icon bkm_maslak__header">
+          <h1 class="bkm">BKM Mutfak-Maslak</h1>
+          <ion-icon
+            class="ion__icon__info infoButton_bkmmaslak"
+            name="information-circle-outline"
+          ></ion-icon>
+        </div>
+        <div
+          id="bkmm__mutfak__maslak__info__page"
+          class="gallard__info__page hidden"
+        >
+          <h2>BKM MUTFAK - UNIQ HALL</h2>
+          <p>
+            İstanbul, Maslak Uniq Hall'de yer alan BKM MUTFAK Cafe & Restaurant
+            1100 m2 büyüklüğünde olup uzun zamandır pasif olan bir mekandı. EKA
+            ekipleri tarafından tekrar kullanıma açılan mekan yeniden düzenlendi
+            ve tasarıma uygun şekilde uygulaması yapıldı.
+          </p>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 65%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            margin-left: 2rem;
+          "
+        />
+      </div>
+
+      <div class="slides project__photos gallery-item-bkm">
+        <img
+          class="img__one"
+          src="BKM Mutfak - Uniq Maslak/bkm_mutfak_uniq01.jpg"
+          alt="Image 1"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="BKM Mutfak - Uniq Maslak/bkm_mutfak_uniq02.jpg"
+          alt="Image 2"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="BKM Mutfak - Uniq Maslak/bkm_mutfak_uniq03.jpg"
+          alt="Image 3"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="BKM Mutfak - Uniq Maslak/bkm_mutfak_uniq04.jpg"
+          alt="Image 4"
+          onclick="openModal(this)"
+        />
+      </div>
+      <div id="myModalbkm" class="modal">
+        <span class="closebkm">&times;</span>
+        <img class="modal-content" id="img02" />
+      </div>
+    </div>
+    <div class="slider project__foto project__photos gallery-item-bkmatolye">
+      <div class="bkm__atolye__line">
+        <div class="header_and_icon bkm_maslak__header">
+          <h1 class="bkm__atolye">BKM Mutfak Atölye</h1>
+          <ion-icon
+            class="ion__icon__info infoButton_bkmmutfakatolye"
+            name="information-circle-outline"
+          ></ion-icon>
+        </div>
+        <div
+          id="bkmm__mutfak__atolye__info__page"
+          class="gallard__info__page hidden"
+        >
+          <h2>BKM Mutfak Atölye</h2>
+          <p>
+            Ankara One Tower AVM içinde yer alan ve 1000 metrekare alana sahip
+            çocuk drama eğitimi için özel olarak tasarlanan BKM Tiyatro
+            projesini Eka Mimarlık olarak hayata geçirdik. Bu projede,
+            çocukların yaratıcılıklarını en üst düzeyde kullanabilecekleri,
+            modern ve işlevsel bir alan oluşturduk. Sahne tasarımından akustik
+            düzenlemelere kadar tüm detaylarda, küçük sanatçıların ihtiyaçlarını
+            göz önünde bulundurduk. Geniş ve ferah mekan, çocukların drama
+            eğitimlerini keyifle almaları için ideal bir ortam sunarken, Eka
+            Mimarlık imzasıyla estetik ve işlevselliği bir araya getirdik.
+          </p>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 65%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            margin-left: 2rem;
+          "
+        />
+      </div>
+      <div class="slides">
+        <img
+          class="img__one"
+          src="BKM MutfakAtölye - Ankara/bkmmutfakatolye01.jpg"
+          alt="Image 1"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="BKM MutfakAtölye - Ankara/bkmmutfakatolye02.jpg"
+          alt="Image 2"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="BKM MutfakAtölye - Ankara/bkmmutfakatolye03.jpg"
+          alt="Image 3"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="BKM MutfakAtölye - Ankara/bkmmutfakatolye04.jpg"
+          alt="Image 4"
+          onclick="openModal(this)"
+        />
+      </div>
+      <div id="myModalbkmatolye" class="modal">
+        <span class="closebkmatolye">&times;</span>
+        <img class="modal-content" id="img03" />
+      </div>
+    </div>
+    <div class="slider project__foto">
+      <div class="huqqabaz__line">
+        <div class="header_and_icon bkm_maslak__header">
+          <h1 class="huqqabaz">Huqqabaz-Hilltown</h1>
+          <ion-icon
+            class="ion__icon__info infoButton_huqqabaz"
+            name="information-circle-outline"
+          ></ion-icon>
+        </div>
+        <div id="huqqabaz__info__page" class="gallard__info__page hidden">
+          <h2>HUQQABAZ</h2>
+          <h2>İstanbul Hilltown AVM</h2>
+          <p>
+            İstanbul Hilton AVM'de konumlu 1200 m2 alana sahip restoranın tüm
+            inşai kalemleri; şantiye ve iş orginazyonu yapılmıştır.
+          </p>
+          <ul class="list__style__proj">
+            <li>1. Tüm mekan orginasyonu ve mekan bölüntüsünün yapılması,</li>
+            <li>
+              2. Tüm giydirme malzemelerinin belirlenmesi ve detaylara uygun
+              olarak uygulanması,
+            </li>
+            <li>
+              3. Asma kat ve bahçe kapama çelik konstrüksiyon proje ve
+              uygulamaları,
+            </li>
+            <li>4. Dekoratif ahşap kaplama ve loca uygulaması</li>
+          </ul>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 65%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            margin-left: 1rem;
+          "
+        />
+      </div>
+      <div class="slides project__photos gallery-item-huqqabaz">
+        <img
+          class="img__one"
+          src="HUQQABAZ - HİLLTOWN MALTEPE/Huqqabaz01.jpg"
+          alt="Image 1"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="HUQQABAZ - HİLLTOWN MALTEPE/Huqqabaz02.jpg"
+          alt="Image 2"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="HUQQABAZ - HİLLTOWN MALTEPE/Huqqabaz03.jpg"
+          alt="Image 3"
+          onclick="openModal(this)"
+        />
+        <img
+          class="img__one"
+          src="HUQQABAZ - HİLLTOWN MALTEPE/Huqqabaz04.jpg"
+          alt="Image 4"
+          onclick="openModal(this)"
+        />
+      </div>
+      <div id="myModalhuqqabaz" class="modal">
+        <span class="closehuqqabaz">&times;</span>
+        <img class="modal-content" id="img04" />
+      </div>
+    </div>
+
+    <div class="slider project__foto">
+      <div class="riva__263__line">
+        <div class="header_and_icon bkm_maslak__header">
+          <h1 class="riva__263">Riva 263</h1>
+          <ion-icon
+            class="ion__icon__info infoButton_riva263"
+            name="information-circle-outline"
+          ></ion-icon>
+        </div>
+        <div id="riva263__info__page" class="gallard__info__page hidden">
+          <h2>Riva 263</h2>
+          <p>
+            İstanbul, Beykoz Riva'da yer alan RİVA263 projemiz 383 m2 arsa
+            içinde konumlu 4 oda, 1 salon, mutfak, 3 banyodan oluşan müstakil
+            bir villadır. EKA tarafından tasarlanıp yerinde uygulanan villa siz
+            değerli müşterilerimiz için yakında satışa sunulacaktır. Projemiz
+            akıllı ev olarak tasarlanmış, yerden ısıtma sistemli, minimal
+            tasarım ilkeleri doğrultusunda tasarlanmış bir projedir.
+          </p>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 65%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            margin-left: 10rem;
+          "
+        />
+      </div>
+      <div class="slides project__photos gallery-item-riva263">
+        <img class="img__one" src="Riva 263/Riva263-01.jpg" alt="Image 1" />
+        <img class="img__one" src="Riva 263/Riva263-02.jpg" alt="Image 2" />
+        <img class="img__one" src="Riva 263/Riva263-03.jpg" alt="Image 3" />
+        <img class="img__one" src="Riva 263/Riva263-04.jpg" alt="Image 4" />
+      </div>
+      <div id="myModalriva263" class="modal">
+        <span class="closeriva263">&times;</span>
+        <img class="modal-content" id="img05" />
+      </div>
+    </div>
+    <div class="slider project__foto">
+      <div class="riva__918__line">
+        <div class="header_and_icon bkm_maslak__header">
+          <h1 class="riva__918">Riva 918</h1>
+          <ion-icon
+            class="ion__icon__info infoButton_riva918"
+            name="information-circle-outline"
+          ></ion-icon>
+        </div>
+        <div class="riva918__info__page hidden">
+          <h2>Riva 918</h2>
+          <p>
+            İstanbul, Beykoz Riva'da yer alan RİVA918 projemiz 495 m2 arsa
+            içinde konumlu 6 oda, 1 salon, mutfak, 3 banyo, 1 wc ve 1 depodan
+            oluşan müstakil bir villadır. EKA tarafından tasarlanıp yerinde
+            uygulanan villa siz değerli müşterilerimiz için yakında satışa
+            sunulacaktır. Projemiz akıllı ev olarak tasarlanmış, yerden ısıtma
+            sistemli, minimal tasarım ilkeleri doğrultusunda tasarlanmış bir
+            projedir.
+          </p>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 65%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            margin-left: 10rem;
+          "
+        />
+      </div>
+      <div class="slides project__photos gallery-item-riva918">
+        <img class="img__one" src="Riva 918/riva918-01.jpg" alt="Image 1" />
+        <img class="img__one" src="Riva 918/riva918-02.jpg" alt="Image 2" />
+        <img class="img__one" src="Riva 918/riva918-03.jpg" alt="Image 3" />
+        <img class="img__one" src="Riva 918/riva918-04.jpg" alt="Image 4" />
+      </div>
+      <div id="myModalriva918" class="modal">
+        <span class="closeriva918">&times;</span>
+        <img class="modal-content" id="img06" />
+      </div>
+    </div>
+    <div class="slider project__foto">
+      <div class="maya__eczanesi__line">
+        <div class="header_and_icon bkm_maslak__header">
+          <h1 class="maya__eczanesi">Maya Eczanesi</h1>
+          <ion-icon
+            class="ion__icon__info infoButton_maya"
+            name="information-circle-outline"
+          ></ion-icon>
+        </div>
+        <div id="maya__info__page" class="gallard__info__page hidden">
+          <h2>Maya Eczanesi</h2>
+          <p>
+            Suadiye'de yer alan Maya Eczanesi projemizde, estetik ve
+            işlevselliği mükemmel bir uyumla buluşturduk. Modern ve geleneksel
+            tasarım detaylarını harmanladığımız bu projede, mevcut alanı en
+            verimli şekilde kullanarak ferahlığı koruyan bir yaklaşım
+            benimsedik. Müşterilerin rahatça hareket edebileceği geniş bir
+            merkez alan oluştururken, içe gömülü dolaplarla hem şıklığı hem de
+            ferah bir atmosferi destekledik. "Bir eczane nasıl hem estetik, hem
+            işlevsel, hem de şık tasarlanır?" sorusunun cevabı, Suadiye'deki
+            Maya Eczanesi'nde hayat buldu.
+          </p>
+        </div>
+        <hr
+          style="
+            height: 8px;
+            border-width: 5;
+            width: 65%;
+            background-color: rgb(28, 66, 180);
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            margin-left: 8rem;
+          "
+        />
+      </div>
+      <div class="slides project__photos gallery-item-maya">
+        <img
+          class="img__one"
+          src="Maya Eczanesi - Suadiye/MayaEczanesi01.jpg"
+          alt="Image 1"
+        />
+        <img
+          class="img__one"
+          src="Maya Eczanesi - Suadiye/MayaEczanesi02.jpg"
+          alt="Image 2"
+        />
+        <img
+          class="img__one"
+          src="Maya Eczanesi - Suadiye/MayaEczanesi03.jpg"
+          alt="Image 3"
+        />
+        <img
+          class="img__one"
+          src="Maya Eczanesi - Suadiye/MayaEczanesi04.jpg"
+          alt="Image 4"
+        />
+      </div>
+      <div id="myModalmaya" class="modal">
+        <span class="closemaya">&times;</span>
+        <img class="modal-content" id="img07" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo footer__logo" alt="EKA logo" src="img/a1.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/ekamimarlikmuhendislik/"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/ekamimarlik/?locale=tr_TR"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by EKA, Inc. All
+            rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Bize Ulaşın</p>
+          <address class="contacts">
+            <p class="address">
+              Maslak Mah. MASLAK42 KOLLEKTİFHOUSE Kat:7 No:745 Sarıyer /
+              İstanbul
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">0 554 343 15 81</a
+              ><br />
+              <a class="footer-link" href="tel:415-201-6370">0 505 302 89 11</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >eka.mimarlik@hotmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Şirket</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="ekibimiz.html">EKA Hakkında</a>
+            </li>
+            <li><a class="footer-link" href="project.html">Portföyümüz</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
