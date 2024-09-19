@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link rel="stylesheet" href="css/quaries.css" />
+    <script defer src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <title>Eka Iletisim</title>
+  </head>
+  <body>
+    <header class="header__">
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/rka-.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list navn__">
+          <li><a class="main-nav-link" href="index.html">Hakkımızda</a></li>
+          <li><a class="main-nav-link" href="project.html">Portföyümüz</a></li>
+          <li><a class="main-nav-link" href="ekibimiz.html">Ekibimiz</a></li>
+          <li><a class="main-nav-link" href="iletisim.html">İletişim</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1712.782829957702!2d28.895969394901368!3d41.060620471054676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab07a5b040001%3A0xedc5256cdc6964c2!2sEKA%20Mimarl%C4%B1k%20%26%20M%C3%BChendislik!5e0!3m2!1str!2sde!4v1721865490567!5m2!1str!2sde"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <div class="container last__form">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">
+              Sorularınız İçin Bizimle İletişime Geçin
+            </h2>
+
+            <p class="cta-text">
+              Topluluğumuzdaki deneyimli mimarlar ve tasarımcılar size yardımcı
+              olmaktan mutluluk duyacaktır.
+            </p>
+
+            <form class="cta-form" name="sing-up" netlify>
+              <div>
+                <label for="full-name">İsminiz</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Mustafa Kanlı"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email adresiniz </label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">Bizi nereden duydunuz?</label>
+                <select id="select-where" name="select-where" required>
+                  <option value="">Lütfen bir seçeneği seçiniz</option>
+                  <option value="ad">Instagram</option>
+                  <option value="ad">Facebook</option>
+                  <option value="others">Diger</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Formu Gönder</button>
+
+              <!-- <input type="checkbox" />
+              <input type="number" /> -->
+            </form>
+          </div>
+          <a
+            class="footer-link ins__icon"
+            href="https://www.instagram.com/ekamimarlikmuhendislik/"
+            ><ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            /ekamimarlikmuhendislik</a
+          >
+        </div>
+      </div>
+    </section>
+    <main>
+      <footer class="footer">
+        <div class="container grid grid--footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img class="logo footer__logo" alt="EKA logo" src="img/a1.png" />
+            </a>
+
+            <ul class="social-links">
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.instagram.com/ekamimarlikmuhendislik/"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="https://www.facebook.com/ekamimarlik/?locale=tr_TR"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2024</span> by EKA, Inc. All
+              rights reserved.
+            </p>
+          </div>
+
+          <div class="address-col">
+            <p class="footer-heading">Bize Ulaşın</p>
+            <address class="contacts">
+              <p class="address">
+                Maslak Mah. MASLAK42 KOLLEKTİFHOUSE Kat:7 No:745 Sarıyer /
+                İstanbul
+              </p>
+              <p>
+                <a class="footer-link" href="tel:415-201-6370"
+                  >0 554 343 15 81</a
+                ><br />
+                <a class="footer-link" href="tel:415-201-6370"
+                  >0 505 302 89 11</a
+                ><br />
+                <a class="footer-link" href="mailto:hello@omnifood.com"
+                  >eka.mimarlik@hotmail.com</a
+                >
+              </p>
+            </address>
+          </div>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Şirket</p>
+            <ul class="footer-nav">
+              <li>
+                <a class="footer-link" href="ekibimiz.html">EKA Hakkında</a>
+              </li>
+              <li>
+                <a class="footer-link" href="project.html">Portföyümüz</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
